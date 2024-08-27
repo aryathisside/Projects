@@ -2,9 +2,11 @@ import { useState } from "react";
 import styled from "styled-components";
 import AccordianDump from "./components/accordian/index2";
 import ColorChange from "./components/colorChange/ColorChange";
+import StarRating from "./components/starRating/star";
 function App() {
   const [showAccordian, setShowAccordian] = useState(false);
   const [showColorPage, setShowColorPage] = useState(false);
+  const [starPage, setShowStarPage] = useState(false);
   return (
     <>
       <Wrapper>
@@ -18,6 +20,11 @@ function App() {
         <Button onClick={() => setShowColorPage(!showColorPage)}>Color Page</Button>
         {/* </Color> */}
         {showColorPage ? <ColorChange /> : ""}
+
+        <Button onClick={() => setShowStarPage(!starPage)}>Star Rating</Button>
+        {/* </Color> */}
+        {starPage ? <StarRating noOfStars={10}  /> : ""}
+
       </Wrapper>
     </>
   );
@@ -32,17 +39,18 @@ const Wrapper = styled.div`
   justify-content: center;
   width: 100%;
   background-color: white;
+  gap: 10px;
 `;
 
 const Acc = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
   justify-content: space-between;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   width: 100%;
   height: 10vh;
 `;
