@@ -1,0 +1,33 @@
+{
+    "name": "Contemporary Studio",
+    "address": "234 Sunset Blvd, Los Angeles, CA 90046",
+    "description": "Sleek studio with modern amenities.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/8.jpg",
+    "id": "8",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 10
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Studio"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 500
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2021
+        }
+    ]
+}

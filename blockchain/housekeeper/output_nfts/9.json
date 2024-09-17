@@ -1,0 +1,33 @@
+{
+    "name": "Vintage Farmhouse",
+    "address": "567 Country Rd, Nashville, TN 37205",
+    "description": "Rustic farmhouse with countryside views.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/9.jpg",
+    "id": "9",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 18
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Farmhouse"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 2000
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1940
+        }
+    ]
+}

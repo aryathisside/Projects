@@ -1,0 +1,33 @@
+{
+    "name": "Modern Downtown Loft",
+    "address": "123 Main St APT 10A, New York, NY 10001",
+    "description": "Stylish loft in the heart of downtown.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/1.jpg",
+    "id": "1",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 15
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Loft"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 800
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2019
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Urban Penthouse Suite",
+    "address": "789 High St APT 21D, San Francisco, CA 94103",
+    "description": "Modern penthouse with panoramic city views.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/7.jpg",
+    "id": "7",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 35
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Penthouse"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 2700
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2018
+        }
+    ]
+}

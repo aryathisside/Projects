@@ -1,0 +1,33 @@
+{
+    "name": "Luxury Beachfront Villa",
+    "address": "321 Ocean Ave, Malibu, CA 90265",
+    "description": "Exclusive villa right on the beach.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/5.jpg",
+    "id": "5",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 50
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Villa"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 5
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 4
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 3500
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2020
+        }
+    ]
+}

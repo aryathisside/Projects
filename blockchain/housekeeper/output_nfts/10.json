@@ -1,0 +1,33 @@
+{
+    "name": "Stylish City Apartment",
+    "address": "890 Broad St APT 12B, Boston, MA 02108",
+    "description": "Modern apartment with city views.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/10.jpg",
+    "id": "10",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 20
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Apartment"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 1200
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2016
+        }
+    ]
+}

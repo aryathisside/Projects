@@ -1,0 +1,33 @@
+{
+    "name": "Historic Mansion",
+    "address": "456 Grand Ave, Philadelphia, PA 19103",
+    "description": "Elegant mansion with historic charm.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/6.jpg",
+    "id": "6",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 40
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Mansion"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 6
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 5
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 5000
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1900
+        }
+    ]
+}

@@ -1,0 +1,332 @@
+[
+    {
+        "name": "Modern Downtown Loft",
+        "address": "123 Main St APT 10A, New York, NY 10001",
+        "description": "Stylish loft in the heart of downtown.",
+        "image": "https://ipfs.io/ipfs/QmR2M8G1L3UdY1H9fhsKPbMcHbQjAx4N6eL7bAdX3bQk8A/1.png",
+        "id": "1",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 15
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Loft"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 1
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 1
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 800
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 2019
+            }
+        ]
+    },
+    {
+        "name": "Elegant Brownstone",
+        "address": "45 Elm St APT 3C, Brooklyn, NY 11201",
+        "description": "Charming brownstone with classic design.",
+        "image": "https://ipfs.io/ipfs/QmV2GwTkxFvF7A77ECLkXbzr9F4C5nL9pDPRaNTuqkBFcA/2.png",
+        "id": "2",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 25
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Brownstone"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 3
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 2
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 1500
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 1890
+            }
+        ]
+    },
+    {
+        "name": "Spacious Suburban Home",
+        "address": "678 Oak St, Austin, TX 73301",
+        "description": "Large family home with a big yard.",
+        "image": "https://ipfs.io/ipfs/Qmd9bH7j1bTHe3g6ZzfsV6D4zyq6Ge7v9A7GH7dE8Yb4nx/3.png",
+        "id": "3",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 30
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "House"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 4
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 3
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 2500
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 2005
+            }
+        ]
+    },
+    {
+        "name": "Cozy Cottage by the Lake",
+        "address": "890 Lakeview Rd, Asheville, NC 28801",
+        "description": "Charming cottage with lake view.",
+        "image": "https://ipfs.io/ipfs/QmUNwzTY8ftdUmkHkTHQWhCz5r9dcn8cPU3LC9uh5Y4U1d/4.png",
+        "id": "4",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 12
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Cottage"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 2
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 1
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 600
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 1985
+            }
+        ]
+    },
+    {
+        "name": "Luxury Beachfront Villa",
+        "address": "321 Ocean Ave, Malibu, CA 90265",
+        "description": "Exclusive villa right on the beach.",
+        "image": "https://ipfs.io/ipfs/QmdJrVcQkF2yLmtKch3KdKBR1owtZysP4kQ5J9JfA8xZy4/5.png",
+        "id": "5",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 50
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Villa"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 5
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 4
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 3500
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 2020
+            }
+        ]
+    },
+    {
+        "name": "Historic Mansion",
+        "address": "456 Grand Ave, Philadelphia, PA 19103",
+        "description": "Elegant mansion with historic charm.",
+        "image": "https://ipfs.io/ipfs/QmZmz7nL6i6RpN8zC8UncA4q7uhBHWkxGRvx7DhQ4pX9D3/6.png",
+        "id": "6",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 40
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Mansion"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 6
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 5
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 5000
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 1900
+            }
+        ]
+    },
+    {
+        "name": "Urban Penthouse Suite",
+        "address": "789 High St APT 21D, San Francisco, CA 94103",
+        "description": "Modern penthouse with panoramic city views.",
+        "image": "https://ipfs.io/ipfs/QmZ4sK6uByPffnTf3M9C6oyWw75EBD1G8D27LGgE4JfdJ2/7.png",
+        "id": "7",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 35
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Penthouse"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 3
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 3
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 2700
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 2018
+            }
+        ]
+    },
+    {
+        "name": "Contemporary Studio",
+        "address": "234 Sunset Blvd, Los Angeles, CA 90046",
+        "description": "Sleek studio with modern amenities.",
+        "image": "https://ipfs.io/ipfs/QmTt9p6N7eqU98r2TQdt5BrbCk1M4sJY7X9mBqrg7G1msT/8.png",
+        "id": "8",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 10
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Studio"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 1
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 1
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 500
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 2021
+            }
+        ]
+    },
+    {
+        "name": "Vintage Farmhouse",
+        "address": "567 Country Rd, Nashville, TN 37205",
+        "description": "Rustic farmhouse with countryside views.",
+        "image": "https://ipfs.io/ipfs/QmPSU6kxZQGfx7Jd68bY7rKw9o6G5fCRihFgxAKvX82v2k/9.png",
+        "id": "9",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 18
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Farmhouse"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 3
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 2
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 2000
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 1940
+            }
+        ]
+    },
+    {
+        "name": "Stylish City Apartment",
+        "address": "890 Broad St APT 12B, Boston, MA 02108",
+        "description": "Modern apartment with city views.",
+        "image": "https://ipfs.io/ipfs/QmR5P6TosvKwrKtx4uKZG9sZTW6DbbTkYpaFJSaA6k24qr/10.png",
+        "id": "10",
+        "attributes": [
+            {
+                "trait_type": "Purchase Price",
+                "value": 20
+            },
+            {
+                "trait_type": "Type of Residence",
+                "value": "Apartment"
+            },
+            {
+                "trait_type": "Bed Rooms",
+                "value": 2
+            },
+            {
+                "trait_type": "Bathrooms",
+                "value": 2
+            },
+            {
+                "trait_type": "Square Feet",
+                "value": 1200
+            },
+            {
+                "trait_type": "Year Built",
+                "value": 2016
+            }
+        ]
+    }
+]

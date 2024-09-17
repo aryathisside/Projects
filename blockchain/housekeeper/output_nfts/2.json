@@ -1,0 +1,33 @@
+{
+    "name": "Elegant Brownstone",
+    "address": "45 Elm St APT 3C, Brooklyn, NY 11201",
+    "description": "Charming brownstone with classic design.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/2.jpg",
+    "id": "2",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 25
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Brownstone"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 1500
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1890
+        }
+    ]
+}

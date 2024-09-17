@@ -1,0 +1,33 @@
+{
+    "name": "Spacious Suburban Home",
+    "address": "678 Oak St, Austin, TX 73301",
+    "description": "Large family home with a big yard.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/3.jpg",
+    "id": "3",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 30
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "House"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 4
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 2500
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2005
+        }
+    ]
+}

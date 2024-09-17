@@ -1,0 +1,33 @@
+{
+    "name": "Cozy Cottage by the Lake",
+    "address": "890 Lakeview Rd, Asheville, NC 28801",
+    "description": "Charming cottage with lake view.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRopwrCqdjmbZ95EmoTGodpuGynr3sfNRFavTHkoroGED/4.jpg",
+    "id": "4",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 12
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Cottage"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 600
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 1985
+        }
+    ]
+}
