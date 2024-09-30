@@ -1,8 +1,12 @@
 const hre = require("hardhat");
 
+// const tokens = (n) => {
+//     return BigInt(n) * BigInt(10 ** 18);
+// };
+
 const tokens = (n) => {
-    return BigInt(n) * BigInt(10 ** 18);
-};
+  return ethers.parseUnits(n.toString(), 'ether')
+}
 
 async function main() {
   // Setup accounts
@@ -26,9 +30,7 @@ async function main() {
     realEstateAddress,
     seller.address,
     inspector.address,
-    lender.address,
-    marketplaceAccount.address,
-    2
+    lender.address
   ) 
 
   const escrowAddress = await escrow.getAddress()

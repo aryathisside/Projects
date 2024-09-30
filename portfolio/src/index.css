@@ -1,0 +1,110 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.navbar {
+  background-color: black; /* Black background */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Padding for the navbar (top and bottom set to 0) */
+  height: 40px;
+   /* Set a fixed height for the navbar */
+}
+
+/* Arya Box */
+.arya-box {
+  background-color: white; /* White background for Arya */
+  color: black; /* Black text for Arya */
+  padding: 10px 15px; /* Padding for the box */
+  margin-right: 20px; /* Space between Arya and other links */
+  margin-left: -20px; /* Remove unwanted margin on the left */
+  display: flex; /* Use flex to center text vertically */
+  align-items: center; /* Center text vertically */
+  height: 60px; /* Set height to match navbar */
+  width: 60px; /* Set a specific width for the Arya box */
+  box-sizing: border-box; /* Include padding and border in the box's width and height */
+  text-decoration: none; /* Remove underline from the link */
+
+  &:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  p{
+    margin-top: 22px;
+    margin-left: -2px; /* Remove unwanted margin on the left */
+  }
+}
+
+/* Nav Links */
+.nav__links {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  display: flex; /* Flex layout for horizontal alignment */
+  align-items: center;
+  margin-top: 5px;
+  flex-grow: 1; /* Allow nav links to take available space */
+}
+
+.nav__item {
+  margin-right: 20px; /* Space between links */
+}
+
+/* Navbar Links */
+.nav__item a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Padding for links */
+  
+}
+
+/* Change link color on hover */
+.nav__item a:hover {
+  color: #ddd; /* Light color on hover */
+  text-decoration: underline;
+  
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none; /* No background */
+  border: none; /* No border */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 20px; /* Font size for the button */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .navbar {
+      flex-direction: column; /* Stack items vertically */
+  }
+  .nav__links {
+      flex-direction: column; /* Stack links vertically */
+      margin-bottom: 10px; /* Space between links and button */
+  }
+  .nav__item {
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 10px; /* Space between stacked links */
+  }
+}
+
+
+.cursor-torch {
+  position: fixed; /* Fixed position to follow the cursor */
+  width: 350px; /* Width of the spotlight */
+  height: 350px; /* Height of the spotlight */
+  border-radius: 50%; /* Circular shape */
+  pointer-events: none; /* Prevent interference with mouse events */
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%); /* Light effect with increased transparency */
+  transition: background 0.1s ease; /* Smooth transition */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+/* Optional: Add some styles for when the mouse is over specific elements */
+.navbar:hover .cursor-torch, .nav__links:hover .cursor-torch {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%); /* Slightly brighter when over certain elements */
+}

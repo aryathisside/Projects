@@ -1,7 +1,10 @@
 import { ethers } from 'ethers';
 import { useEffect, useState } from 'react';
+// const hre = require("hardhat");
 
 import close from '../assets/close.svg';
+
+// const big = (n) => { return BigInt(n) };
 
 const Home = ({ home, provider, account, escrow, togglePop }) => {
 
@@ -51,7 +54,12 @@ const Home = ({ home, provider, account, escrow, togglePop }) => {
     const buyHandler = async () => {
         const escrowAmount = await escrow.escrowAmount(home.id)
         const signer = await provider.getSigner()
+        console.log("escrowAmount",escrowAmount)
+        // const escrowAmountBigNumber = big(escrowAmount);
 
+// Format BigNumber to ether
+        // const costInEther = ethers.formatEther(escrowAmountBigNumber);
+ 
         try {
 
             // Buyer deposit earnest

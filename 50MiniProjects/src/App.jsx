@@ -3,9 +3,11 @@ import styled from "styled-components";
 import AccordianDump from "./components/accordian/index2";
 import ColorChange from "./components/colorChange/ColorChange";
 import StarRating from "./components/starRating/star";
+import LightDarkMode from "./components/light-dark/index"
 function App() {
   const [showAccordian, setShowAccordian] = useState(false);
   const [showColorPage, setShowColorPage] = useState(false);
+  const [showThemePage, setShowThemePage] = useState(false);
   const [starPage, setShowStarPage] = useState(false);
   return (
     <>
@@ -25,6 +27,9 @@ function App() {
         {/* </Color> */}
         {starPage ? <StarRating noOfStars={10}  /> : ""}
 
+        <Button onClick={() => setShowThemePage(!showThemePage)}>Theme Page</Button>
+        {/* </Color> */}
+        {showThemePage ? <LightDarkMode  /> : ""}
       </Wrapper>
     </>
   );

@@ -20,16 +20,6 @@
         "internalType": "address",
         "name": "_lender",
         "type": "address"
-      },
-      {
-        "internalType": "address payable",
-        "name": "_marketplaceAccount",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_marketplaceFee",
-        "type": "uint256"
       }
     ],
     "stateMutability": "nonpayable",
@@ -256,57 +246,12 @@
   },
   {
     "inputs": [],
-    "name": "marketplaceAccount",
-    "outputs": [
-      {
-        "internalType": "address payable",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "marketplaceFee",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
     "name": "nftAddress",
     "outputs": [
       {
         "internalType": "address",
         "name": "",
         "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "name": "nftSaleFunds",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
       }
     ],
     "stateMutability": "view",

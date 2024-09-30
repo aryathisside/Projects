@@ -83,7 +83,7 @@ function App() {
       const escrow = new ethers.Contract(config[chainIdString].escrow.address, Escrow, provider);
       setEscrow(escrow)
 
-
+      
       try {
         const getBalance = await escrow.getBalance();
         console.log("getBalance:", getBalance);
